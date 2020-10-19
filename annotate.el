@@ -66,6 +66,7 @@
   "Toggle Annotate mode.
 See https://github.com/bastibe/annotate.el/ for documentation."
   :init-value nil
+  :global t
   :lighter " Ann"
   :keymap (make-sparse-keymap)
   :group 'annotate
